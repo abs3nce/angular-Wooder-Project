@@ -1,8 +1,95 @@
+
 .header {
   background-image: url("/assets/images/header-main_banner.png");
   background-position: 67% center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   min-height: 100vh;
-  
+
+  .banner-effect1 {
+    .banner-line {
+      background-color: rgb(192, 175, 145);
+      position: absolute;
+      left: 376px;
+      top: 296px;
+      width: 4px;
+      height: 51px;
+      z-index: 103;
+    }
+    .banner-number {
+      font-size: 90px;
+      font-family: "ProximaNova";
+      color: rgb(190, 166, 124);
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.111;
+      text-align: left;
+      -moz-transform: matrix(5.14156656428596e-16, 0.58311614869601, -0.582233712147, 0, 0, 0);
+      -webkit-transform: matrix(5.14156656428596e-16, 0.58311614869601, -0.582233712147, 0, 0, 0);
+      -ms-transform: matrix(5.14156656428596e-16, 0.58311614869601, -0.582233712147, 0, 0, 0);
+      position: absolute;
+      left: 334.416px;
+      top: 342.505px;
+      z-index: 94;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .banner-dot1 {
+      border-radius: 50%;
+      background-color: rgb(190, 166, 124);
+      position: absolute;
+      left: 370px;
+      top: 505px;
+      width: 10px;
+      height: 10px;
+      z-index: 108;
+    }
+    .banner-dot2 {
+      border-radius: 50%;
+      background-color: rgb(48, 48, 48);
+      position: absolute;
+      left: 370px;
+      top: 555px;
+      width: 10px;
+      height: 10px;
+      z-index: 109;
+    }
+    .banner-dot3 {
+      border-radius: 50%;
+      background-color: rgb(48, 48, 48);
+      position: absolute;
+      left: 370px;
+      top: 605px;
+      width: 10px;
+      height: 10px;
+      z-index: 110;
+    }
+    .banner-dot4 {
+      border-radius: 50%;
+      background-color: rgb(48, 48, 48);
+      position: absolute;
+      left: 370px;
+      top: 655px;
+      width: 10px;
+      height: 10px;
+      z-index: 111;
+    }
+  }
+
+  .hero {
+    font-size: 100px;
+    color: rgb(190, 166, 124);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: left;
+    -moz-transform: matrix(1.00113006074945, 0, 0, 0.99961503881447, 0, 0);
+    -webkit-transform: matrix(1.00113006074945, 0, 0, 0.99961503881447, 0, 0);
+    -ms-transform: matrix(1.00113006074945, 0, 0, 0.99961503881447, 0, 0);
+    position: absolute;
+    left: 728.661px;
+    top: 337.481px;
+    z-index: 93;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+  }
 }
