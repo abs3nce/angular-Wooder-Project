@@ -38,9 +38,6 @@ p{
     color: rgb(99, 98, 98);
     line-height: 1.667;
     text-align: center;
-    -moz-transform: matrix( 1.00037038872946,0,0,1.0012811563265,0,0);
-    -webkit-transform: matrix( 1.00037038872946,0,0,1.0012811563265,0,0);
-    -ms-transform: matrix( 1.00037038872946,0,0,1.0012811563265,0,0);
 }
 
 .img-holder{
@@ -57,9 +54,6 @@ img{
     border-radius: 50%;
     border-collapse: separate;
     border-spacing: 15px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     margin: 0;
     position: absolute;
     top: 50%;
