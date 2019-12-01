@@ -1,10 +1,21 @@
 .row{
     width: 100%;
+    margin: 30px;
 }
 
 .col1{
-    width: 95%;
+    width: 20%;
     z-index: 2;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.col2{
+    width: 75%;
+    z-index: 2;
+    float: left;
 }
 
 .col{
@@ -18,23 +29,25 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     width: 1px;
-    height: 20%;
+    height: 150px;
     background-color: rgb(255, 255, 255);
     z-index: 2;
 }
 
 .horizontal-line1{
+    float: right;
     background-color: rgb(255, 255, 255);
     height: 1px;
-    width: 100px;
-    float: left;
+    width: 150px;
+    margin-top: 60px;
 }
 
 .horizontal-line2{
     background-color: rgb(190, 166, 124);
     height: 3px;
     width: 50px;
-    float: left;
+    margin-top: 130px;
+    float: right;
 }
 
 .img-holder{
@@ -42,7 +55,7 @@
     position: relative;
 }
 
-img{
+.bg{
     position: absolute;
     z-index: 1;
 }
@@ -58,6 +71,9 @@ img{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
 h1{
@@ -76,6 +92,19 @@ p{
     line-height: 1.667;
 }
 
+
+.button{
+    width: 250px;
+    line-height: 50px;
+    height: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+}
+
+.img-play{
+    vertical-align: middle;
+}
+
 a{
     text-decoration: none;
     font-size: 14px;
@@ -83,5 +112,4 @@ a{
     color: rgb(255, 255, 255);
     font-weight: bold;
     text-transform: uppercase;
-    border: 2px solid rgb(255, 255, 255);
 }
