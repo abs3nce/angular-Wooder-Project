@@ -1,0 +1,99 @@
+.row{
+    width: 60%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.col{
+   width: 33.33333%; 
+   float: left;
+}
+
+h1{
+    font-size: 48px;
+    font-family: "ProximaNova";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 2.083;
+    text-align: center;
+}
+.separator{
+    background-color: rgb(190, 166, 124);
+    width: 44px;
+    height: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 15px;
+    font-family: "ProximaNova";
+    color: rgb(99, 98, 98);
+    line-height: 1.667;
+    text-align: center;
+    -moz-transform: matrix( 1.00037038872946,0,0,1.0012811563265,0,0);
+    -webkit-transform: matrix( 1.00037038872946,0,0,1.0012811563265,0,0);
+    -ms-transform: matrix( 1.00037038872946,0,0,1.0012811563265,0,0);
+}
+
+.img-holder{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    border: 1px solid rgb(200, 200, 200);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+img{
+    border-radius: 50%;
+    border-collapse: separate;
+    border-spacing: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.separator-small{
+    background-color: rgb(190, 166, 124);
+    height: 1px;
+    width: 23px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.title-small{
+    font-size: 16px;
+    font-family: "ProximaNova";
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+}
+
+.Эллипс_3 {
+    border-radius: 50%;
+    background-color: rgb(190, 166, 124);
+    opacity: 0.8;
+    position: absolute;
+    left: 568px;
+    top: 2749px;
+    width: 68px;
+    height: 68px;
+    z-index: 62;
+}
