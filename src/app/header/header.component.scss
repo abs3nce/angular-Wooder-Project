@@ -1,6 +1,31 @@
 * {
   font-family: "Montserrat", sans-serif;
 }
+
+.col1-4 {
+  width: 25%;
+  z-index: 2;
+}
+
+.col2-4 {
+  width: 50%;
+  z-index: 2;
+}
+
+.col3-4 {
+  width: 75%;
+  z-index: 2;
+}
+
+.col1 {
+  width: 100%;
+  z-index: 2;
+}
+
+.rotate90CW{
+  transform: rotate(90deg);
+}
+
 .header {
   background-image: url("/assets/images/header-main_banner.png");
   background-position: center;
@@ -8,22 +33,34 @@
   background-repeat: no-repeat;
   min-height: 100vh;
 
-  .banner-effect1 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-    padding-left: 25%;
-    padding-top: 20%;
-  }
-
   .hero {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    color: rgb(190, 166, 124);
+
     .hero-text {
-      font-size: 70px;
+      font-size: 100px;
+      margin-right: auto;
+      width: inherit;
       font-weight: bolder;
+    }
+
+    .button {
+      border: 2px solid white;
+      padding: 20px 100px;
+      border-radius: 4px;
+      background: none;
+      width: inherit;
+      font-size: 15px;
+      color: white;
+      img {
+        padding-left: 8px;
+      }
     }
   }
 }
