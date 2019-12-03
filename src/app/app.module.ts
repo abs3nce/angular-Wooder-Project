@@ -7,6 +7,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HeaderComponent } from './header/header.component';
 import { MoreVideosComponent } from './more-videos/more-videos.component';
 import { VideoBoxComponent } from './video-box/video-box.component';
+import { FeaturedComponent } from './featured/featured.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { VideoBoxComponent } from './video-box/video-box.component';
     NavBarComponent,
     HeaderComponent,
     MoreVideosComponent,
-    VideoBoxComponent
+    VideoBoxComponent,
+    FeaturedComponent
   ],
   imports: [
     BrowserModule,
