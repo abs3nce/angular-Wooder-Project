@@ -15,6 +15,8 @@ import { VideoBoxComponent } from './video-box/video-box.component';
     NavBarComponent,
     AboutComponent,
     HeaderComponent,
+    MoreVideosComponent,
+    VideoBoxComponent,
   ],
   imports: [
     BrowserModule,

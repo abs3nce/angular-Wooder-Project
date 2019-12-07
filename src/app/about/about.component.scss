@@ -1,12 +1,36 @@
-.container1 {
+.about-container1 {
     display: flex;
+    flex-wrap: nowrap;
 }
-.box1 {
-    flex: 1;
-}
-.box2 {
-    flex: 1;
-}
-.margleft {
+.about-margleft {
     margin-left: 20%;
+}
+.about-box1 {
+    width: 100%;
+}
+.about-image 
+{
+        position: relative;
+        margin-left:18%;
+        margin-top: 3%;
+        // padding: 10%;
+}
+.about-text {
+    text-align: left;
+    margin-left: 5%;
+    
+}
+.about-text1 {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.about-fancyshit { 
+        margin-top: 30%;
+        border-width: 1px;
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+        z-index: 3000;
+        width: 25%;
+        margin-right: 80%;
 }
