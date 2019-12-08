@@ -8,6 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from './header/header.component';
 import { MoreVideosComponent } from './more-videos/more-videos.component';
 import { VideoBoxComponent } from './video-box/video-box.component';
+import { FeaturedComponent } from './featured/featured.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { VideoBoxComponent } from './video-box/video-box.component';
     HeaderComponent,
     MoreVideosComponent,
     VideoBoxComponent,
+    FeaturedComponent,
   ],
   imports: [
     BrowserModule,

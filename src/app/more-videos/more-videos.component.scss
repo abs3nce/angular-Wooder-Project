@@ -1,8 +1,11 @@
+* {
+    font-family: "Montserrat", sans-serif;
+  }
+
 .row{
     width: 60%;
     margin-top: 80px;
     margin-bottom: 80px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
 
@@ -15,7 +18,6 @@
 
 h1{
     font-size: 48px;
-    font-family: "ProximaNova";
     color: rgb(0, 0, 0);
     font-weight: bold;
     text-transform: uppercase;
@@ -34,7 +36,6 @@ h1{
 
 p{
     font-size: 15px;
-    font-family: "ProximaNova";
     color: rgb(99, 98, 98);
     line-height: 1.667;
     text-align: center;
@@ -49,6 +50,10 @@ p{
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    transition: linear 200ms;
+    &:hover{
+        background-color: rgb(190, 166, 124);
+    }
 }
 img{
     border-radius: 50%;
@@ -75,7 +80,6 @@ img{
 
 .title-small{
     font-size: 16px;
-    font-family: "ProximaNova";
     color: rgb(0, 0, 0);
     line-height: 1.5;
 }
