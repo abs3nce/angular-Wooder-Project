@@ -22,10 +22,6 @@
   z-index: 2;
 }
 
-.rotate90CW{
-  transform: rotate(90deg);
-}
-
 .header {
   background-image: url("/assets/images/header-main_banner.png");
   background-position: center;
@@ -33,34 +29,95 @@
   background-repeat: no-repeat;
   min-height: 100vh;
 
-  .hero {
+  display: flex;
+  justify-content: center;
+
+  .left {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+  }
+
+  .middle {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     align-content: center;
-    height: 100vh;
-    color: rgb(190, 166, 124);
 
-    .hero-text {
-      font-size: 100px;
-      margin-right: auto;
-      width: inherit;
-      font-weight: bolder;
-    }
+    .hero {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: left;
+      align-items: center;
+      align-content: center;
+      .hero-text {
+        color: rgb(190, 166, 124);
+        font-size: 100px;
+        font-weight: 900;
 
-    .button {
-      border: 2px solid white;
-      padding: 20px 100px;
-      border-radius: 4px;
-      background: none;
-      width: inherit;
-      font-size: 15px;
-      color: white;
-      img {
-        padding-left: 8px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10%;
+      }
+
+      .hero-button {
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 10%;
+        .button {
+          border: 2px solid white;
+          padding: 20px 100px;
+          //border-radius: 4px;
+          background: none;
+          width: inherit;
+          font-size: 15px;
+          color: white;
+          img {
+            padding-left: 8px;
+          }
+        }
+      }
+
+      .hero-effect {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5%;
+        #arrow {
+          margin-left: 0.8%;
+        }
+      }
+      .hero-scroll {
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        #scroll-text {
+          margin-left: 5px;
+          margin-top: 5%;
+        }
       }
     }
+    // .hero {
+    //   display: flex;
+    //   flex-direction: column;
+    //   flex-wrap: wrap;
+    //   justify-content: center;
+    //   align-items: center;
+    //   align-content: center;
+    //   height: 100vh;
+    //   color: rgb(190, 166, 124);
+
+    //   .hero-text {
+    //     font-size: 100px;
+    //     margin-right: auto;
+    //     width: inherit;
+    //     font-weight: bolder;
+    //   }
+
+    // }
   }
 }
