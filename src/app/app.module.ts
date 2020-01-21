@@ -10,6 +10,7 @@ import { VideoBoxComponent } from './video-box/video-box.component';
 import { FeaturedComponent } from './featured/featured.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
     VideoBoxComponent,
     FeaturedComponent,
     ProductListComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
