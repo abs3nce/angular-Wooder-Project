@@ -1,3 +1,7 @@
 <div class="conatiner">
-    
+    <!-- {{Items | json}} -->
+    <div *ngFor="let Item of Items">
+        <img src={{Item.thumbnailUrl}} />
+        <p> {{Item.title}}</p>
+     </div>
 </div>
