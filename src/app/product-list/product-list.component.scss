@@ -1,31 +1,33 @@
-.card{
-    margin: 100px; // neskor zmenit
-    width: 300px;
-    height: 500px;
-    background-color: bisque;
+
+.card {
+  font-family: "Montserrat", sans-serif;
+  margin: 100px; // neskor zmenit
+  width: 150px;
+  height: 300px;
+  background-color: bisque;
 }
 
-.img-holder{
-    height: 300px;
-    background-color: blueviolet;
+.img-holder {
+  height: 150px;
+  background-color: blueviolet;
 }
 
-.info-box{
-    text-align: center;
+.info-box {
+  text-align: center;
 }
 
-.info{
-    height: 150px;
-    h1{
-        margin: 10px;
-    }
+.info {
+  height: 150px;
+  h1 {
+    margin: 10px;
+  }
 }
 
-.btn-detail{
-    height: 50px;
-    background-color: black;
-    color: white;
-    p{
-        line-height: 50px;
-    }
+.btn-detail {
+  height: 50px;
+  background-color: black;
+  color: white;
+  p {
+    line-height: 50px;
+  }
 }
