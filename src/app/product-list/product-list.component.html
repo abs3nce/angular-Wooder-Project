@@ -1,1 +1,9 @@
-<app-product-detail></app-product-detail>
+<div class="conatiner">
+    <!-- {{Items | json}} -->
+    <div *ngFor="let Item of Items" class = "card">
+        <div class="img-holder">
+            <img src={{Item.thumbnailUrl}}/>
+        </div>
+        <p class = "info-box">{{Item.title}}</p>
+     </div>
+</div>
