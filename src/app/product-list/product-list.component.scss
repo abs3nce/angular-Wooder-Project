@@ -10,11 +10,22 @@
     background-color: blueviolet;
 }
 
+.info-box{
+    text-align: center;
+}
+
 .info{
     height: 150px;
+    h1{
+        margin: 10px;
+    }
 }
 
 .btn-detail{
     height: 50px;
     background-color: black;
+    color: white;
+    p{
+        line-height: 50px;
+    }
 }
