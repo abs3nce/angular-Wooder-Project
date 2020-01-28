@@ -3,17 +3,21 @@
   }
 
 .row{
-    width: 60%;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    align-content: space-around;
+    margin: 5%;
 
 }
 
 .col{
-   width: 33.33333%; 
-   float: left;
+   margin: 30px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 0;
 }
 
 h1{
@@ -23,6 +27,8 @@ h1{
     text-transform: uppercase;
     line-height: 2.083;
     text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 .separator{
     background-color: rgb(190, 166, 124);
@@ -39,6 +45,8 @@ p{
     color: rgb(99, 98, 98);
     line-height: 1.667;
     text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
 }
 
 .img-holder{
