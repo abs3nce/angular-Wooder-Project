@@ -13,6 +13,7 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { HomeComponent } from './home/home.component';
 import { HttpClientModule} from '@angular/common/http';
+import { AboutPageComponent } from './about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HttpClientModule} from '@angular/common/http';
     FeaturedComponent,
     ProductListComponent,
     ProductDetailComponent,
-    HomeComponent
+    HomeComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,
