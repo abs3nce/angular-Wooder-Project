@@ -63,3 +63,18 @@ p {
 .fa fa-shopping-cart{
   margin: 50px;
 }
+.btn1 { /* Blue background */
+  color: white; /* White text */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  border-color: red;
+  border-width: 2px;
+}
+.container{
+  .counter{
+    display: flex;
+    flex-direction: row;
+  }
+  display: flex;
+  flex-direction: row;
+}
