@@ -1,33 +1,63 @@
+.content{
+  background-image: url("/assets/images/header-main_banner.png");
+}
+
+.conatiner-list{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+  align-content: stretch;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  padding-top: 20vh;
+}
 
 .card {
   font-family: "Montserrat", sans-serif;
-  margin: 100px; // neskor zmenit
-  width: 150px;
-  height: 300px;
-  background-color: bisque;
+  margin: 20px; // neskor zmenit
+  width: 300px;
+  height: 600px;
+  background-color: white;
 }
 
 .img-holder {
-  height: 150px;
+  height: 300px;
   background-color: blueviolet;
+  img{
+    width: 300px;
+    height: 300px;
+  }
 }
 
 .info-box {
   text-align: center;
-}
 
-.info {
-  height: 150px;
-  h1 {
-    margin: 10px;
+  .info{
+    padding: 15px;
+    height: 200px;
+
+    h1{
+      margin-bottom: 15px;
+    }
   }
-}
 
-.btn-detail {
-  height: 50px;
-  background-color: black;
-  color: white;
-  p {
-    line-height: 50px;
+  .btn-detail {
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: 0;
+    transition: ease 300ms;
+
+    p {
+      line-height: 50px;
+    }
+
+    &:hover{
+      background-color: rgb(190, 166, 124);
+    }
   }
 }
