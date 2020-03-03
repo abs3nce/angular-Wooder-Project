@@ -20,6 +20,6 @@ export class ProductsService {
   }
 
   getProduct(id: number){
-    return this.http.get(this.serverURL + 'photos' + id);
+    return this.http.get(this.serverURL + 'photos/'  + id);
   }
 }
