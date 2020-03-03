@@ -1,10 +1,19 @@
-
-<div class="conatiner">
-    <!-- {{Items | json}} -->
-    <div *ngFor="let Item of Items" class = "card">
-        <div class="img-holder">
-            <img src={{Item.thumbnailUrl}}/>
-        </div>
-        <p class = "info-box">{{Item.title}}</p>
-     </div>
+<div class="content">
+    <div class="conatiner-list">
+        <!-- {{Items | json}} -->
+        <div *ngFor="let Item of Items" class = "card">
+            <div class="img-holder">
+                <img src={{Item.thumbnailUrl}}/>
+            </div>
+            <div class="info-box">
+                <div class="info">
+                    <h1>{{Item.id}}</h1>
+                    <h3>{{Item.title}}</h3>
+                </div>
+                <button class="btn-detail" [routerLink]="['/detail', Item.id]">
+                    <p>PRODUCT DETAILS</p>
+                </button>
+            </div>
+         </div>
+    </div>
 </div>

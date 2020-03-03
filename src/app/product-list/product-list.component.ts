@@ -18,7 +18,4 @@ export class ProductListComponent implements OnInit {
       this.Items = res;
     })
   }
-
-
-
 }
